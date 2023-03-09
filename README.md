@@ -83,11 +83,17 @@ Scratch is a soundboard that plays scratch sounds. You can play a trick on other
 ## **Sources**
 
 **HTML5**
+
 **CSS**
+
 **JS**
+
 **jQuery**
+
 **Bootstrap**
+
 **Micro-Slider**
+
 **Integration Google fonts**
 
 ## **Installation**
