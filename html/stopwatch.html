@@ -1,0 +1,51 @@
+<div class="stopwatch-back w-100 h-100">
+    <div class="btn-box d-flex align-items-center">
+        <button id="games-btn" class="btn slide-link" title="back-button">
+            Back
+        </button>
+    </div>
+    <div class="content-box d-flex justify-content-center align-items-center">
+        <div class="mw-100 mx-3">
+            <div class="stop-window my-5 p-3">
+                <div class="radius w-100 h-100 position-relative">
+                    <div class="watch-border radius w-100 h-100 position-absolute top-0 left-0 z-2 d-flex justify-content-center align-items-center">
+                        <div class="watch-body radius position-relative d-flex justify-content-center align-items-center">
+                            <div class="watch-border-text radius z-1 d-flex justify-content-center align-items-center">
+                                <div class="watch-text-body position-relative radius">
+                                    <span id="reset-text" class="position-absolute">Reset</span>
+                                    <span id="start-text" class="position-absolute">Start</span>
+                                    <span id="stop-text" class="position-absolute">Stop</span>
+                                    <div class="watch-time-sheet d-flex justify-content-start align-items-center flex-column">
+                                        <div id="sheet-cc">CC</div>
+                                        <span id="sheet-sw">STOPWATCH</span>
+                                        <div class="time-sheet">
+                                            <div id="time">
+                                                <span id="hour">0</span>:<span id="minutes">00</span>:<span id="seconds">00</span><span id="millis">00</span>
+                                            </div>
+                                        </div>
+                                        <span id="sheet-wr">WATER RESISTANT</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="span-child position-absolute z-0"></span>
+                            <span class="span-child1 position-absolute z-0"></span>
+                            <span class="span-child2 position-absolute z-0"></span>
+                        </div>
+                    </div>
+                    <div id="reset-time" class="time-btn stopwatchAction position-absolute d-flex flex-column align-items-center justify-content-center">
+                        <div class="time-btn-head time-btn-reset"></div>
+                        <div class="time-btn-neck time-btn-reset"></div>
+                    </div>
+                    <div id="start-time" class="time-btn stopwatchAction position-absolute d-flex flex-column align-items-center justify-content-center">
+                        <div id="time-btn-head" class="time-btn-head time-btn-start"></div>
+                        <div class="time-btn-neck time-btn-start"></div>
+                    </div>
+                    <div id="stop-time" class="time-btn stopwatchAction position-absolute d-flex flex-column align-items-center justify-content-center">
+                        <div class="time-btn-head time-btn-stop"></div>
+                        <div class="time-btn-neck time-btn-stop"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

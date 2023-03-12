@@ -21,8 +21,19 @@ body {
     font-weight: 300;
     line-height: 1.4;
     background-color: #ffffff;
+    margin: 0;
+}
+#static-app {
+    max-height: 100vh;
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
 }
 #app {
+    max-height: 100vh;
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
     -webkit-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -303,23 +314,26 @@ section {
 }
 .slide-link {
     min-width: 140px;
-    background-color: var(--clr-blue);
+    background-color: rgba(255, 255, 255, 0.2);
     font-weight: 700;
     font-size: 13px;
     text-transform: uppercase;
-    border-radius: 3px;
-    color: #333333;
+    border-radius: 2px;
+    color: white;
     padding-top: .9rem;
     padding-bottom: .75rem;
     cursor: pointer;
+    border: 1px solid white;
 }
 .slide-link:focus {
-    border: 1px solid white;
-    color: white;
+    border: 1px solid transparent;
+    color: #333;
+    background-color: var(--clr-blue);
 }
 .slide-link:hover {
-    border: 1px solid white;
-    color: white;
+    border: 1px solid transparent;
+    color: #333;
+    background-color: var(--clr-blue);
 }
 
 

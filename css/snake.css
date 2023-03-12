@@ -1,0 +1,33 @@
+.slide-link {
+    width: 100px;
+    background-color: var(--clr-blue);
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #333333;
+    padding-top: .9rem;
+    padding-bottom: .75rem;
+    cursor: pointer;
+}
+.slide-link:focus {
+    border: 1px solid white;
+    color: white;
+    background-color: var(--clr-blue-hov);
+}
+.slide-link:hover {
+    border: 1px solid white;
+    color: white;
+    background-color: var(--clr-blue-hov);
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    outline: 0px solid transparent;
+}
